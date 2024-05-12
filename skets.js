@@ -4,12 +4,12 @@ function setup() {
   }
   
   function draw() {
-   stoker ("blue");
+   stroke ("blue");
     fill("red");
     
-    1f(mou(seIsPressed){
+    if(mouseIsPressed){
       rect(mouseX, mouseY, 20, 35);
-    {
-      
-      {
+  }
+  
+}
         
